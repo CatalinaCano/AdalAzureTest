@@ -1,0 +1,10 @@
+Enlaces de Interes
+
+https://github.com/benbaran/adal-angular6-example
+https://www.npmjs.com/package/microsoft-adal-angular6
+https://github.com/manishrasrani/ms-adal-angular6-example
+
+Deploy app in Azure
+https://dzone.com/articles/deploy-an-angular-app-from-visual-studio-code-to-a-1
+https://docs.microsoft.com/es-es/azure/app-service/configure-authentication-provider-aad
+https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant
