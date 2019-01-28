@@ -12,11 +12,11 @@ import { AuthenticationGuard, MsAdalAngular6Module } from 'microsoft-adal-angula
     BrowserModule,
     AppRoutingModule,
     MsAdalAngular6Module.forRoot({
-      tenant: '<YOUR TENANT>',
-      clientId: '<YOUR CLIENT / APP ID>',
+      tenant: 'catalinacano08hotmail.onmicrosoft.com',
+      clientId: '63f3972c-81cc-4cce-9d50-d0344d1e0c8b',
       redirectUri: window.location.origin,
       endpoints: {
-        "https://localhost/Api/": "xxx-bae6-4760-b434-xxx"
+        'https://login.microsoftonline.com/41499052-44d4-41f5-8a80-1d37b17703c8/oauth2/authorize': 'xxx-bae6-4760-b434-xxx'
       },
       navigateToLoginRequestUrl: false,
       cacheLocation: 'localStorage',
