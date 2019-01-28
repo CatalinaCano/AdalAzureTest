@@ -3,8 +3,7 @@ import { MsAdalAngular6Service } from 'microsoft-adal-angular6';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   title = 'app';
@@ -13,5 +12,9 @@ export class AppComponent {
     var token = this.adalSvc.acquireToken('https://graph.microsoft.com').subscribe((token: string) => {
       console.log(token);
     });;
+  }
+
+  logout(){
+    this.adalSvc.logout(); 
   }
 }
